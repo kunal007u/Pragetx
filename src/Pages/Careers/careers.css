@@ -1,0 +1,270 @@
+.career-top-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    position: relative;
+    background-image: url(../../Images/banner-line-art.jpg);
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/*-----------------------------  Why Work With PragetX -----------------------------  */
+.ethical-career-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 50px 0 0;
+}
+
+.culture-work-box,
+.ethical-career-box {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.ethical-img img {
+    height: 315px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+}
+
+.culture-work-box .ethical-career-con,
+.ethical-career-box .ethical-career-con {
+    padding: 30px;
+}
+
+.culture-work-box .ethical-career-con h4,
+.ethical-career-box .ethical-career-con h4 {
+    margin: 0 0 20px;
+}
+
+.culture-work-img img {
+    height: 315px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+}
+
+.culture-work-box .ethical-career-con p,
+.ethical-career-box .ethical-career-con p {
+    min-height: 120px;
+    margin: 0;
+}
+
+/* -------------------------- Our Work Ethics && Perks of Working With PragetX -----------------------------------*/
+.perks-of-work .work-life-box img {
+    width: 90px;
+    margin-right: 20px;
+    transition: all 1s;
+}
+
+/* ----------------------------- We are Hiring ----------------------------- */
+.we-are-hiring-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+
+.we-are-hiring {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 50px 0 0;
+}
+
+.we-are-hiring .hiring-box .btn:focus {
+    background-color: #024d81;
+    color: white;
+}
+
+.hiring-box {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    padding: 25px;
+    border: 1px solid #024d81;
+    background: #fff;
+    margin: 0 0 10px;
+}
+
+.hiring-box h5 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.hiring-box p {
+    margin: 0 0 20px;
+}
+
+.hiring-box a {
+    margin: 25px auto -50px;
+    width: 100%;
+    text-align: center;
+}
+
+/* ----------------------------- Our Office  ----------------------------- */
+.contact-our-office-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 0 0 100px;
+}
+
+.contact-our-office-main .row {
+    margin-top: 0;
+}
+
+.contact-our-office-main .office-address {
+    width: 100%;
+    height: 100%;
+}
+
+.office-address {
+    width: 70%;
+    display: inline-block;
+    margin: 0;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.office-address img {
+    border-radius: 20px 20px 0 0;
+    height: 230px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.office-con {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 20px;
+    text-align: center;
+    min-height: 180px;
+}
+
+
+/* -----------------------------  Career Form modal -----------------------------  */
+.hire-modal-main .modal-content {
+    background: #024d81;
+}
+
+.hire-modal-main .modal-content .btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    opacity: 1;
+}
+
+.hire-modal-main .modal-content .modal-body {
+    padding: 50px;
+}
+
+.hire-modal-con {
+    display: inline-block;
+    width: 90%;
+    overflow: auto;
+    height: calc(100vh - 150px);
+}
+
+.hire-modal-main .modal-content h3 {
+    color: #fff;
+}
+
+.hire-modal-main .modal-content p {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    padding: 0 0 20px;
+    margin: 0 0 50px;
+}
+
+.hire-modal-main .modal-content form p {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hire-modal-main .modal-content h4 {
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.hire-modal-main .modal-content ul {
+    margin: 0 0 50px;
+    padding: 0 0 30px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.hire-modal-main .modal-content ul li {
+    color: #fff;
+    margin: 15px 0 0;
+}
+
+.hire-modal-from .form-row {
+    margin: 0 -15px;
+}
+
+.form-row {
+    margin: 0 -7px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hire-modal-from .form-row .col-lg-6 {
+    margin: 0 0 30px;
+    padding: 0 15px;
+}
+
+.hire-modal-from .form-control {
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.hire-modal-from .form-control::placeholder {
+    color: #fff;
+}
+
+.hire-modal-from .form-row .col-lg-12 {
+    margin: 0 0 30px;
+    padding: 0 15px;
+}
+
+.hire-modal-from .btn {
+    border: 1px solid #fff;
+    margin: 10px 0 0 0;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}

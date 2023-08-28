@@ -1,0 +1,217 @@
+.how-we-work-top {
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/how-we-work-top.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-top-slider .container {
+    width: 90%;
+    max-width: 100%;
+}
+
+.header-top-slider .row h1 span {
+    color: #024d81;
+}
+
+/* ************************************* about-us-main ****************************************************************************** */
+
+.hww-dec-con .row {
+    align-items: center;
+}
+
+.hww-dec-con .about-con .con-head h5 {
+    font-size: 19px !important;
+    line-height: 30px !important;
+}
+
+.hww-dec-con .col-lg-6:nth-child(3) .about-img {
+    float: right;
+}
+
+.hww-dec-con .about-img {
+    width: 500px;
+}
+
+.hww-dec-con .about-con .space {
+    min-height: 70px;
+}
+
+
+/* ************************************* ai-ml-services ****************************************************************************** */
+
+
+.ai-ml-services {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+
+.ai-services-main {
+    margin: 20px 0 0;
+}
+
+.proposition-main .ai-services-main .services-box {
+    min-height: 210px;
+}
+
+.ai-services-main .services-box {
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .02);
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 20px;
+    border-bottom: 5px solid #024d81;
+    margin: 0 0 30px;
+    border-radius: 15px;
+    min-height: 390px;
+}
+
+
+
+
+/* ************************************* business-models-main ****************************************************************************** */
+
+
+.business-models-con {
+    padding: 0 50px;
+}
+
+.business-models-img {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.business-models-con h4 {
+    margin: 0 0 30px;
+}
+
+.business-models-con p {
+    margin: 0;
+}
+
+
+
+
+/* ************************************* development-approach-main ****************************************************************************** */
+
+
+.development-approach-main .con-head {
+    margin: 0 0 150px;
+}
+
+.server-listing {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.server-listing-img {
+    position: absolute;
+    top: -100px;
+    left: 53%;
+    margin: auto;
+    z-index: 1;
+    transform: translateX(-55%);
+    -webkit-transform: translateX(-55%);
+}
+
+.server-listing-img img {
+    border-radius: 50%;
+}
+
+.server-listing ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.server-listing ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 13px 10px rgba(0, 0, 0, .05);
+    min-height: 170px;
+}
+
+.server-list-cont {
+    width: 285px;
+}
+
+.server-list-cont .server-list-cont-hd {
+    color: #024d81;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.server-list-cont p {
+    margin: 15px 0 0;
+    color: #666;
+}
+
+.server-listing ul li:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.server-listing ul li:last-child {
+    margin-top: 30px;
+    z-index: 1;
+    width: 525px;
+}
+
+.server-listing ul li:last-child .server-list-cont {
+    width: 100%;
+    z-index: 11;
+}
+
+
+
+
+/* ************************************* work-life-main ****************************************************************************** */
+
+.benefits-you-get .work-life .work-life-box {
+    border-right: none;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    background: #fff 0 0 no-repeat padding-box;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.benefits-you-get .work-life .work-life-box::before {
+    content: "";
+    width: 84%;
+    height: 7px;
+    background-color: #024d81;
+    position: absolute;
+    bottom: -7px;
+    z-index: 0;
+    border-radius: 0 0 10px 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.benefits-you-get .work-life .work-life-box span {
+    border-left: 1px solid #024d81;
+    padding-left: 30px;
+    margin-left: 10px;
+}

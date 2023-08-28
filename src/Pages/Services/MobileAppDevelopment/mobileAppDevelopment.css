@@ -1,0 +1,13 @@
+.mobile-app-top-slider {
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/mobile-app-main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.software-services .ai-services-main .col-lg-6 .services-box {
+    min-height: 300px;
+}

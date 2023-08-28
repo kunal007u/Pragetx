@@ -1,0 +1,23 @@
+.blog-top-main6::after {
+    content: '';
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.blog-top-main6 {
+    background: url(../../../Images/how-to-make-a-website.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog-top-main6 .row {
+    height: 100vh;
+    position: relative;
+    z-index: 999;
+}

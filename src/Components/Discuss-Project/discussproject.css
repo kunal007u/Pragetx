@@ -1,0 +1,29 @@
+.discuss-your-project-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: #024d81 url(../../Images/lets-discus-bg.svg);
+    background-size: auto 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.discuss-your-project-con {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.discuss-your-project-con h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 28px !important;
+    line-height: 34px !important;
+}
+
+.discuss-your-project-con .btn {
+    background: #fff;
+    color: #024d81 !important;
+}

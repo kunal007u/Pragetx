@@ -1,0 +1,40 @@
+.serving-fortune-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.serving-logo-box-main {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.serving-logo {
+    display: inline-block;
+    width: 17.5%;
+    cursor: pointer;
+    vertical-align: top;
+    margin: 30px 0 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 15px 30px;
+}
+
+.serving-logo img {
+    max-height: 50px;
+    max-width: 160px;
+    filter: grayscale(100%);
+}
+
+.serving-logo:hover img {
+    filter: grayscale(0%);
+}

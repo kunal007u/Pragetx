@@ -1,0 +1,182 @@
+/* ------------------------------ Referral Program ------------------------------*/
+.referral-programs-top {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../../Images/referral-programs-top.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hire-developers {
+    padding-top: 100px;
+}
+
+
+.hire-developers .header-top-con {
+    text-align: left !important;
+}
+
+.hire-developers .row .header-top-con h1 {
+    text-align: left !important;
+    margin-top: 0;
+}
+
+.hire-developers .row .header-top-con h5 {
+    text-align: left !important;
+    margin: 10px 0;
+}
+
+.hire-form {
+    background: rgba(2, 77, 129, .7);
+    display: inline-block;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.hire-form h3 {
+    color: #fff;
+    margin: 0 0 30px;
+}
+
+
+/* ------------------------------- referral-client-logo ------------------------------- */
+.referral-client-logo.client-logo-slider {
+    padding: 30px 0;
+}
+
+.referral-client-logo.client-logo-slider .r-logo1 {
+    margin: 0 20px;
+}
+
+.referral-client-logo.client-logo-slider .r-logo1 img {
+    max-height: 55px;
+    max-width: 180px;
+
+}
+
+.client-logo-review .marquee_text {
+    display: flex;
+}
+
+/* ------------------------------- What Is A Client Referral Program? ------------------------------- */
+
+.soft-about-main ul {
+    padding: 0 0 0 15px;
+}
+
+/* ------------------------------- Referral Reward Avail Terms & Conditions ------------------------------- */
+
+.follows .about-con .row {
+    align-items: center;
+}
+
+.follows .about-con .con-head ul {
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.follows .about-con .con-head ul li {
+    margin: 0 0 15px;
+    padding: 0 0 0 40px;
+    background: url("../../../Images/dots-ic.svg");
+    background-repeat: no-repeat;
+    background-position: left 7px;
+    background-size: auto 18px;
+    list-style: none;
+}
+
+/* ------------------------------- Our Best IT Services For Referrals ------------------------------- */
+
+.development-approach-main .con-head {
+    margin: 0 0 150px;
+}
+
+.server-listing {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.server-listing-img {
+    position: absolute;
+    top: -100px;
+    left: 53%;
+    margin: auto;
+    z-index: 1;
+    transform: translateX(-55%);
+    -webkit-transform: translateX(-55%);
+}
+
+.server-listing-img img {
+    border-radius: 50%;
+}
+
+.server-listing ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.server-listing ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 13px 10px rgba(0, 0, 0, .05);
+    min-height: 170px;
+}
+
+.server-list-cont {
+    width: 285px;
+}
+
+.server-listing ul li:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.server-listing ul li:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.server-listing ul li:last-child {
+    margin-top: 30px;
+    z-index: 1;
+    width: 525px;
+}
+
+
+.react-tel-input .form-control {
+    width: 100% !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    padding-left: 55px !important;
+    font-family: Inter !important;
+}
+
+.react-tel-input .flag-dropdown {
+    border: none !important;
+}
+
+.react-tel-input .selected-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    width: 45px !important;
+
+}

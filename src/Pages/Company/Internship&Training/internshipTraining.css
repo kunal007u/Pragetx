@@ -1,0 +1,223 @@
+.internship-main {
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url("../../../Images/internship-and-training-top.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------- Who You Are? -------------------------- */
+.technical-expertise {
+    background: #005a98;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.who-you-are .about-con .con-head {
+    min-height: 300px;
+    margin: 0;
+}
+
+.technical-expertise .con-head {
+    display: inline-block;
+    width: 98%;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .4), -5px -5px 7px 5px rgba(255, 255, 255, .3);
+    border-radius: 30px;
+    padding: 30px;
+    color: #fff;
+    min-height: 730px;
+    margin: 0 auto 30px;
+}
+
+.technical-expertise .con-head h4 {
+    font-size: 24px !important;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.who-you-are .about-con .con-head p {
+    margin: 0;
+}
+
+/* ---------------------------- Intern Eligibility Criteria ---------------------------- */
+
+.follows .about-con .row {
+    align-items: center;
+}
+
+
+/* ---------------------------- Why Should IT Students Choose PragetX As Your Internship? ---------------------------- */
+
+
+.perks-of-work .work-life-box img {
+    width: 90px;
+    margin-right: 20px;
+    transition: all 1s;
+}
+
+.perks-of-work .work-life-box span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.perks-of-work .work-life-box:hover img {
+    transition: all 1s;
+    -webkit-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+}
+
+/* ---------------------------- Hiring process at pragetX ---------------------------- */
+
+.ai-ml-we-work {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.ai-we-work-main {
+    margin: 20px 0 0;
+}
+
+.we-work-box {
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .03);
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 20px;
+    border-bottom: 5px solid #024d81;
+    margin: 0 0 30px;
+    border-radius: 15px;
+    text-align: center;
+    min-height: 295px;
+}
+
+.we-work-box .we-work-ic {
+    margin: 0 0 15px;
+}
+
+.we-work-box h5 {
+    margin: 0 0 15px;
+    font-size: 20px !important;
+    line-height: 24px !important;
+}
+
+.we-work-box p {
+    margin: 0;
+}
+
+.ai-we-work-main .col-lg-2:nth-child(2n) {
+    margin-top: 80px;
+}
+
+
+
+/* ---------------------------- Testimonials of Interns ---------------------------- */
+.case-key-features {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.key-head {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.case-key-features h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.case-key-main-box {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0-15px;
+}
+
+.interns-main .key-box {
+    min-height: 235px;
+}
+
+.key-box {
+    box-shadow: rgb(0 0 0 / 10%) 0 10px 25px;
+    background-color: #fff;
+    height: 220px;
+    margin: 0 15px 80px;
+    width: 47.7%;
+    position: relative;
+    display: inline-block;
+}
+
+.key-box::before {
+    right: 0;
+    top: 0;
+    transition-delay: 0.2s;
+}
+
+.key-box::after,
+.key-box::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all .2s linear;
+    background: #024d81;
+}
+
+.key-box-inner {
+    display: block;
+    padding: 20px;
+}
+
+.key-box .key-box-inner::before {
+    transition-delay: 0s;
+    left: 0;
+    top: 0;
+}
+
+.key-box .key-box-inner::after {
+    transition-delay: 0.4s;
+    right: 0;
+    bottom: 0;
+}
+
+.interns-main .key-ic {
+    padding: 2px;
+}
+
+.key-ic {
+    margin-top: -70px;
+    background: #024d81;
+    width: 90px;
+    border-radius: 50%;
+    height: 90px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.interns-main .key-ic img {
+    border-radius: 50%;
+}
+
+.key-box h4 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin: 0 0 20px;
+}

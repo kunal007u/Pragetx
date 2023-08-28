@@ -1,0 +1,26 @@
+.blog-top-main1 {
+    background: url(../../../Images/businesses-partner.jpg);
+    height: 100vh;
+}
+
+.blog-top-main1::after {
+    content: '';
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.blog-top-main1.blockchain-top-slider .header-top-con {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blog-top-main1 .row {
+    height: 100vh;
+    position: relative;
+    z-index: 999;
+}

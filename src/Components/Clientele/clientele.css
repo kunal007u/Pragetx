@@ -1,0 +1,218 @@
+.why-best-choose-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.why-best-choose-con {
+    margin: 0 auto;
+}
+
+.why-best-choose-main h2 {
+    margin: 0 0 20px;
+    color: #024d81;
+}
+
+.parallax2 {
+    background-image: url(../../Images/parallax2.png) !important;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.parallax-setting {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -100px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.section-padding {
+    position: relative;
+    padding: 2rem 0 7.5rem;
+    overflow: hidden;
+}
+
+.owl-thumbs.owl-dots .owl-dot:first-child {
+    top: 13%;
+    right: 2%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(2) {
+    top: auto;
+    bottom: 35%;
+    left: 5%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(3) {
+    top: 64%;
+    right: 2%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(4) {
+    top: 55%;
+    right: 24%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(5) {
+    top: 38%;
+    right: 10%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(6) {
+    top: 18%;
+    right: 22%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(7) {
+    top: 20%;
+    right: 70%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(8) {
+    top: 69%;
+    left: 20%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(9) {
+    top: 35%;
+    left: 16%;
+}
+
+.owl-thumbs.owl-dots .owl-dot:nth-child(10) {
+    top: 5%;
+    left: 11%;
+}
+
+.owl-thumbs.owl-dots .owl-dot.active {
+    opacity: 1;
+}
+
+
+.owl-thumbs.owl-dots .owl-dot {
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    background: 0 0;
+    z-index: 1;
+    opacity: .65;
+    cursor: pointer;
+}
+
+.owl-thumbs.owl-dots .owl-dot .animated-element {
+    background: 0 0;
+    border: 5px solid rgba(255, 255, 255, .3);
+    border-radius: 50px;
+}
+
+.owl-thumbs.owl-dots .owl-dot img {
+    box-shadow: 0 10px 20px 0 rgba(20, 44, 56, .25);
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+    display: block;
+    visibility: visible;
+    animation-delay: 400ms;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.testimonial-two {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+    max-width: 505px;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-two .testimonial-item p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.testimonial-two .testimonial-para:before {
+    display: block;
+    font-size: 28px;
+    color: #acacac;
+    margin-bottom: 15px;
+    content: "\f10d";
+    font-weight: 700;
+    font-family: 'Font Awesome 5 Free';
+}
+
+.testimonial-post {
+    display: inline-flex;
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+.testimonial-post .post {
+    height: 60px;
+    width: 60px;
+}
+
+.testimonial-post .post,
+.testimonial-post .text-content {
+    display: inline-block;
+}
+
+.testimonial-post .post img {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 8px 0 0;
+}
+
+.testimonial-post .text-content {
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.testimonial-two .testimonial-item h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.testimonial-two .testimonial-item p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.testimonial-two .testimonial-item .rating {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-two .testimonial-item .rating img {
+    height: 20px;
+    width: auto;
+    margin: 0 0 0 15px;
+}
+
+.owl-thumbs.owl-dots .owl-dot.animated-wrap.active .animated-element {
+    border: 5px solid;
+    border-color: #024d81;
+}

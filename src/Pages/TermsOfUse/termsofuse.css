@@ -1,0 +1,9 @@
+.terms-of-use-top {
+    background: url(../../Images/portfolio-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    min-height: 600px;
+}

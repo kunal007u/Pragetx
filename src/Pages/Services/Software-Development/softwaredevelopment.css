@@ -1,0 +1,92 @@
+.software-top-slider {
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/software-main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* ************************************* about-us-main ****************************************************************************** */
+
+
+.soft-about-main ul {
+    padding: 0 0 0 15px;
+}
+
+
+
+/* ************************************* ai-ml-services ****************************************************************************** */
+
+.software-services .services-ic {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+}
+
+.services-ic {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 15px;
+}
+
+.services-ic img {
+    max-height: 80px;
+}
+
+
+
+/* ************************************* ai-ml-we-work ****************************************************************************** */
+
+
+.ai-ml-we-work {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.ai-we-work-main {
+    margin: 20px 0 0;
+}
+
+.ai-we-work-main .col-lg-2:nth-child(2n) {
+    margin-top: 80px;
+}
+
+.we-work-box {
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .03);
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 20px;
+    border-bottom: 5px solid #024d81;
+    margin: 0 0 30px;
+    border-radius: 15px;
+    text-align: center;
+    min-height: 295px;
+}
+
+.we-work-box .we-work-ic {
+    margin: 0 0 15px;
+}
+
+.we-work-box h5 {
+    margin: 0 0 15px;
+    font-size: 20px !important;
+    line-height: 24px !important;
+}
+
+.we-work-box .we-work-ic img {
+    max-height: 75px;
+}
+
+.we-work-box p {
+    margin: 0;
+}

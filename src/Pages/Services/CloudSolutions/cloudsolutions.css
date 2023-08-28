@@ -1,0 +1,9 @@
+.cloud-computing-top-slider {
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/cloud-computing-top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

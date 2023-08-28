@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="53.167" viewBox="0 0 58 53.167">
+  <g id="Group_13921" data-name="Group 13921" transform="translate(-971 -1653.417)">
+    <g id="Group_13920" data-name="Group 13920" transform="translate(251 1473.417)">
+      <rect id="Rectangle_1493" data-name="Rectangle 1493" width="13" height="2" transform="translate(737 210.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1494" data-name="Rectangle 1494" width="11" height="1" transform="translate(737 206.583)" fill="#2a3c4a"/>
+      <path id="Path_12482" data-name="Path 12482" d="M775.1,184.833H764.467v-3.867A.967.967,0,0,0,763.5,180h-29a.967.967,0,0,0-.967.967v3.867H722.9a2.9,2.9,0,0,0-2.9,2.9v29a2.9,2.9,0,0,0,2.9,2.9h21.267v5.8h-8.7a.967.967,0,0,0-.967.967v4.833h-1.933v1.933h32.867v-1.933H763.5V226.4a.967.967,0,0,0-.967-.967h-8.7v-5.8H775.1a2.9,2.9,0,0,0,2.9-2.9v-29a2.9,2.9,0,0,0-2.9-2.9Zm0,1.933a.967.967,0,0,1,.967.967V211.9h-11.6V201.006l4.687-5.584a3.867,3.867,0,0,0-4.687-5.943v-2.712Zm-17.991,20-2.962-2.485,8.7-10.367,2.962,2.485Zm-3.638-.529,1.828,1.534-2.192.756Zm14.2-12.059-.622.74-2.962-2.486.622-.74a1.933,1.933,0,1,1,2.962,2.486Zm-32.205-12.245h27.067v9.346l-10.489,12.5a.964.964,0,0,0-.214.469l-.885,5.567a.966.966,0,0,0,1.27,1.063l5.328-1.837a.957.957,0,0,0,.425-.29l4.565-5.443V214.8H735.467ZM722.9,186.767h10.633V211.9h-11.6V187.733a.967.967,0,0,1,.967-.967Zm38.667,44.467H736.433v-3.867h25.133Zm-9.667-5.8h-5.8v-5.8h5.8Zm23.2-7.733H722.9a.967.967,0,0,1-.967-.967v-2.9h11.6v1.933a.967.967,0,0,0,.967.967h29a.967.967,0,0,0,.967-.967v-1.933h11.6v2.9a.967.967,0,0,1-.967.967Zm0,0" fill="#2a3c4a"/>
+      <rect id="Rectangle_1495" data-name="Rectangle 1495" width="2" height="2" transform="translate(772 214.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1496" data-name="Rectangle 1496" width="4" height="2" transform="translate(737 183.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1497" data-name="Rectangle 1497" width="17" height="2" transform="translate(743 183.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1498" data-name="Rectangle 1498" width="23" height="2" transform="translate(737 188.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1499" data-name="Rectangle 1499" width="2" height="2" transform="translate(737 193.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1500" data-name="Rectangle 1500" width="2" height="2" transform="translate(741 193.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1501" data-name="Rectangle 1501" width="11" height="2" transform="translate(745 193.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1502" data-name="Rectangle 1502" width="6" height="2" transform="translate(737 198.583)" fill="#2a3c4a"/>
+      <rect id="Rectangle_1503" data-name="Rectangle 1503" width="7" height="2" transform="translate(745 198.583)" fill="#2a3c4a"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+.family-hives-top-slider {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/family-hives-top.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

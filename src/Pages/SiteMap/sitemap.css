@@ -1,0 +1,106 @@
+.sitemap-top {
+    background: url(../../Images/sitemap-bg.jpg);
+}
+
+.terms-of-use-con-main {
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.main-link {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.main-link ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main-link ul li:first-child {
+    border-bottom: 1px solid #024d81;
+}
+
+.main-link ul li {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    vertical-align: top;
+}
+
+.main-link ul li:first-child a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #024d81;
+}
+
+.main-link ul li a {
+    text-decoration: none;
+}
+
+.other-link {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.other-link h5 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+    font-weight: 400;
+    color: #024d81;
+    padding: 10px 0;
+    border-bottom: 1px solid #024d81;
+    margin: 0 0;
+}
+
+.other-link ul {
+    padding: 0;
+    margin: 0;
+}
+
+.other-link ul li {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    vertical-align: top;
+    list-style: disc !important;
+}
+
+.other-link ul li a {
+    text-decoration: none;
+}
+
+.other-link.service-link ul li {
+    width: 48%;
+    margin-right: 15px;
+}
+
+
+.other-link.case-link ul li:nth-child(2n) {
+    margin-right: 0
+}
+
+.case-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+.other-link.service-link ul li {
+    width: 48%;
+    margin-right: 15px
+}
+
+.other-link.service-link ul li:nth-child(2n) {
+    margin-right: 0
+}
+
+.other-link.case-link ul li {
+    width: 48%;
+    margin-right: 15px
+}

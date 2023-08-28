@@ -1,0 +1,45 @@
+.work-tag-line {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../Images/tag-line-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.work-tag-line .row {
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.work-tag-box {
+    width: 20%;
+    text-align: center;
+}
+
+.work-tag-line .row h4 {
+    color: #fff;
+}
+
+.work-tag-dash {
+    width: 5%;
+    text-align: center;
+}
+
+.work-tag-line .row h2 {
+    color: #fff;
+}
+
+.work-tag-box:last-child {
+    background: url(../../Images/cloud-deco.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

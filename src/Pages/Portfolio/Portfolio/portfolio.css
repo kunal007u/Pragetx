@@ -1,0 +1,345 @@
+.portfolio-top-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/portfolio-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.project-main {
+    display: inline-block;
+    width: 100%;
+}
+
+.project-box-main {
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.project-head {
+    margin: 0 0 100px;
+}
+
+.project-box-main .container-el {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.aayuvani-app,
+.hungry-veels-app {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.project-bg {
+    padding: 0;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.project-bg .wrapper {
+    position: relative;
+    z-index: 11;
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.project-bg .wrapper .container-text {
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    padding: 0 50px;
+    text-align: left;
+}
+
+.aayuvani-app .container-text,
+.hungry-veels-app .container-text {
+    position: relative;
+    margin: 0 !important;
+}
+
+.wrapper .container-text h2 {
+    margin: 0 0 15px;
+}
+
+.wrapper .container-text h2 span {
+    margin: 0 0 0 20px;
+}
+
+.wrapper .container-text h2 span img {
+    width: 30px;
+}
+
+.wrapper .container-text h5 {
+    margin: 0 0 15px;
+}
+
+.wrapper .container-text h6 {
+    margin: 0 0 15px;
+}
+
+.appi-cta {
+    display: table;
+    position: relative;
+}
+
+.container-text .btn {
+    margin: 15px 0 0;
+}
+
+.project-bg .illu::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #024d81;
+    border-radius: 60px;
+}
+
+
+.project-bg:nth-child(2n) .illu::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    background-color: #024d81;
+    border-radius: 60px;
+}
+
+.aayuvani-app .illu,
+.hungry-veels-app .illu,
+.folo-app .illu,
+.elc-tutoring .illu,
+.neo-growth .illu,
+.zen-coast-university .illu,
+.school-owls .illu,
+.nepal-government-app .illu,
+.nft-marketplace .illu,
+.scrap-book .illu,
+.family-hives .illu,
+.urnest .illu,
+.keep-cool-recs .illu {
+    position: relative;
+    top: 0;
+    height: 800px;
+    width: 800px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+
+.hungry-veels-app .illu .bg {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    max-height: auto;
+    background-image: url(../../../Images/hungry-veels-app.jpg);
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.folo-app .illu .bg {
+    background: url(../../../Images/Folo-app-Astrology.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.elc-tutoring .illu .bg {
+    background-image: url(../../../Images/elc-tutoring.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+
+
+.neo-growth .illu .bg {
+    background-image: url(../../../Images/neogrowth.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+
+.school-owls .illu .bg {
+    background-image: url(../../../Images/school-owls.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.zen-coast-university .illu .bg {
+    background-image: url(../../../Images/zen-cost.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.nepal-government-app .illu .bg {
+    background-image: url(../../../Images/nepali.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.aayuvani-app .illu .bg {
+    background-image: url(../../../Images/aayuvani-app.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.nft-marketplace .illu .bg {
+    background-image: url(../../../Images/nft-marketplace.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.scrap-book .illu .bg {
+    background-image: url(../../../Images/p-scrapbook-img.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.family-hives .illu .bg {
+    background-image: url(../../../Images/p-family-hives.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.urnest .illu .bg {
+    background-image: url(../../../Images/ur-nest.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}
+
+.keep-cool-recs .illu .bg {
+    background-image: url(../../../Images/p-keep-cool-recs.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 11;
+    border-radius: 50px;
+}

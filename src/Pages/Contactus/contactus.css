@@ -1,0 +1,283 @@
+.contact-top-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: #f9f9f9;
+}
+
+.contact-top-slider .row {
+    height: 100vh;
+    align-items: center;
+}
+
+.contact-top-con {
+    padding: 0 100px;
+}
+
+.contact-top-slider h1 {
+    text-align: left;
+    color: #024d81 !important;
+    font-size: 60px !important;
+    line-height: 70px !important;
+    margin: 0 0 30px;
+}
+
+.contact-top-slider h5 {
+    color: #000;
+    text-align: left;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 30px !important;
+}
+
+.contact-btn .f-skype {
+    width: 46%;
+    margin: 0 20px 20px 0;
+}
+
+.contact-btn .f-skype a {
+    width: 100%;
+    display: inline-block;
+    padding: 11px 30px;
+    border-radius: 30px;
+    border: 1px solid #024d81;
+    text-decoration: none;
+}
+
+.contact-btn .f-skype span {
+    margin-right: 10px;
+}
+
+/*------------------------------ Get a Quote ------------------------------ */
+.contact-form-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.contact-form-con {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 0;
+    border: 1px solid #eee;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .02);
+}
+
+.alert-success {
+    margin: 15px 0 0 !important;
+}
+
+.contact-form-con form {
+    margin: 30px 0 0;
+}
+
+.contact-form-main .form-row .col-lg-12,
+.contact-form-main .form-row .col-lg-6 {
+    margin: 0 0 25px;
+    padding: 0 15px;
+}
+
+.contact-form-main .contact-form-con label {
+    margin: 0 0 5px;
+    /* min-height: 50px; */
+}
+
+
+
+.contact-form-main .form-row .form-control {
+    height: 45px;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.contact-form-main .form-row textarea.form-control {
+    height: auto;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.contact-form-main .form-check {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 20px 20px 20px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .02);
+}
+
+.contact-form-main .contact-form-con span {
+    font-size: 14px;
+    /* margin: -15px 0 0 0; */
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    color: #999;
+}
+
+/*  ------------------------------  Have a startup idea   ------------------------------  */
+.contact-startup-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+    background: #024d81 url(../../Images/startup-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-startup-main .row {
+    align-items: center;
+}
+
+.contact-startup-main h2 {
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.contact-startup-main p {
+    color: #fff;
+    margin: 0 0 25px;
+}
+
+.contact-startup-main .btn {
+    margin: 0;
+    border: 1px solid #fff;
+}
+
+.startup-con {
+    display: flex;
+    align-items: center;
+}
+
+.startup-con img {
+    max-height: 250px;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, .8);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .5);
+    margin-right: 30px;
+}
+
+.startup-con h5 {
+    margin: 0 0 0;
+}
+
+.contact-startup-main h5 {
+    color: #fff !important;
+    margin: 0 0 25px;
+}
+
+.startup-con span {
+    margin: 0 0 30px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    color: #fff;
+}
+
+.startup-con a {
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 0 15px;
+}
+
+.startup-con a span {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 0;
+}
+
+.startup-con a span img {
+    max-height: inherit;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    margin-right: 0;
+}
+
+.contact-startup-main h2 {
+    color: #fff !important;
+    margin: 0 0 20px;
+
+}
+
+.contact-form-main .contact-form-con label span {
+    width: auto;
+    color: red;
+    margin: 0;
+}
+
+.input-group.custom-file-button label {
+    min-height: 50px;
+}
+
+
+
+.price-label,
+.horizontal-slider {
+    margin-bottom: 20px !important;
+}
+
+.example-thumb {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.example-thumb::before {
+    position: absolute;
+    content: '';
+    top: -15px;
+    width: 1.1rem;
+    height: 18px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.horizontal-slider .example-track {
+    top: -12px;
+    height: 13px;
+}
+
+.example-track.example-track-1 {
+    background: #024d81;
+}
+
+.example-track {
+    position: relative;
+    background: white;
+    border-radius: 4px;
+    /* width: 0%; */
+
+    border: 1px solid gainsboro;
+}
+
+.react-slider-range {
+    font-size: 14px;
+    display: inline-block;
+    color: #999;
+}
+
+.startup-got-con a:hover {
+    color: white !important;
+}

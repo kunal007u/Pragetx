@@ -1,0 +1,23 @@
+.blog-top-main5::after {
+    content: '';
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.blog-top-main5 .row {
+    height: 100vh;
+    position: relative;
+    z-index: 999;
+}
+
+.blog-top-main5 {
+    background: url(../../../Images/seo-tools.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

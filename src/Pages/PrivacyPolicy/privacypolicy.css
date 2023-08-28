@@ -1,0 +1,42 @@
+.terms-of-use-top {
+    background: url(../../Images/portfolio-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    min-height: 600px;
+}
+
+.terms-of-use-top .row {
+    min-height: 600px;
+    align-items: center;
+    text-align: center;
+}
+
+.terms-of-use-con-main {
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.terms-con-inner {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.terms-con-inner h2 {
+    margin: 0 0 30px;
+    color: #024d81;
+}
+
+.terms-con-inner p {
+    margin: 0 0 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.terms-con-inner ul {
+    padding: 0 0 0 15px;
+}

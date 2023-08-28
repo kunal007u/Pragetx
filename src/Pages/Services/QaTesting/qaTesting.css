@@ -1,0 +1,13 @@
+.qa-software-top-slider {
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/qa-software-testing-top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ai-we-work-main .col-lg-3:nth-child(2n) {
+    margin-top: 80px;
+}

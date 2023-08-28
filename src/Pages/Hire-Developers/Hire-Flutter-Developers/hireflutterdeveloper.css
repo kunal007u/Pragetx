@@ -1,0 +1,9 @@
+.hire-flutter-top {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../../Images/hire-flutter-top-developers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

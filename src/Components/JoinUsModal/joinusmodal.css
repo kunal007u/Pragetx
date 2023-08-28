@@ -1,0 +1,153 @@
+.modal {
+    display: block !important;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal.show {
+    z-index: 10000;
+}
+
+.modal.show .modal-content {
+    animation: slide-down 0.5s ease-in-out;
+}
+
+.modal .modal-content {
+    animation: slide-down 0.5s ease-in-out;
+}
+
+.modal-input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.modal-input-group input {
+    height: 50px;
+}
+
+.modal-form-email {
+    width: 100%;
+    position: relative;
+}
+
+.modal-form-email .error {
+    position: absolute;
+    bottom: -45px;
+    left: 10px;
+}
+
+
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+
+
+.help-modal .modal-dialog .modal-content {
+    background: #024d81;
+    color: #fff;
+}
+
+.modal::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.4 !important;
+}
+
+.help-modal .modal-dialog {
+    max-width: 800px;
+}
+
+.close-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    margin: 0 0 10px;
+}
+
+.close-btn .btn-close {
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    padding: 13px;
+    border-radius: 50%;
+    opacity: 1;
+    color: #000;
+    background-size: 10px;
+}
+
+.help-modal .modal-dialog .modal-content .col-lg-4 {
+    border-right: 1px solid #fff;
+}
+
+.help-modal .modal-dialog .modal-content .col-lg-4 label {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+
+.help-modal .modal-dialog .modal-content .btn {
+    background: #fff;
+    color: #024d81;
+}
+
+.exitPopupContent .btn {
+    margin: 0;
+}
+
+
+.help-modal .modal-dialog .modal-content .subscribe-form-main {
+    background: #fff;
+    color: #024d81;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.help-modal .modal-dialog .modal-content .subscribe-form-main h5 {
+    font-size: 22px !important;
+    line-height: 26px !important;
+    margin: 0 0 10px;
+}
+
+.help-modal .modal-dialog .modal-content .subscribe-form-main label {
+    margin: 0 0 20px;
+}
+
+.help-modal .modal-dialog .modal-content .subscribe-form-main .box {
+    margin: 0;
+}
+
+.help-modal .modal-dialog .modal-content .subscribe-form-main .form-control {
+    margin: 0 20px 0 0;
+    border-radius: 30px !important;
+    order: 1;
+}
+
+.help-modal .modal-dialog .modal-content .subscribe-form-main .btn {
+    order: 2;
+    background: #024d81;
+    color: #fff;
+    border-radius: 30px !important;
+    margin: 0;
+}
+
+.help-modal .modal-dialog .modal-content .col-lg-4:nth-child(3n) {
+    border-right: none;
+}

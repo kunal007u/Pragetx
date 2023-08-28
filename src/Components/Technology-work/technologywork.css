@@ -1,0 +1,106 @@
+.technologies-we-work-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.technologies-we-work-con {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../Images/techno-pattern.svg);
+    background-size: 100%;
+    background-position: center -50px;
+    background-repeat: no-repeat;
+    min-height: 722px;
+}
+
+.technologies-we-work-inner {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.technologies-we-work-inner .nav-tabs {
+    border: none;
+    width: 60%;
+    margin: 0 auto 0;
+}
+
+.technologies-we-work-inner .nav-tabs li {
+    border: none;
+    margin: 0 -1px 0 0 !important;
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+.technologies-we-work-inner .nav-tabs li button.active {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    width: 100%;
+    background: #024d81;
+    color: #fff;
+}
+
+.technologies-we-work-inner .nav-tabs li button:hover {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    width: 100%;
+    background: #024d81;
+    color: #fff
+  }
+
+.technologies-we-work-inner .nav-tabs li button {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    width: 100%;
+    color: #000;
+}
+
+/* .tab-content>.active {
+    display: block;
+}
+
+.tab-content>.tab-pane {
+    display: none;
+} */
+
+.technologies-list {
+    display: inline-flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.technologies-list a {
+    text-decoration: none;
+}
+
+.technologies-list a img {
+    transition: 1s;
+}
+
+.technologies-list a:hover img {
+    transform: scale(1.2)
+  }
+  
+
+.technologies-list a p {
+    margin: 0;
+}
+
+.technologies-box1 {
+    margin: 210px 0 0 0;
+}
+
+.technologies-box2 , .technologies-box4 , .technologies-box6, .technologies-box8{
+    margin: 90px 0 0 -20px;
+}
+
+.technologies-box3 , .technologies-box5, .technologies-box7 {
+    margin: 210px 0 0 -20px;
+}
+

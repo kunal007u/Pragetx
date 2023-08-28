@@ -1,0 +1,17 @@
+.hire-android-top {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../../Images/hire-android-top-developers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}

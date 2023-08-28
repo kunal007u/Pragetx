@@ -1,0 +1,231 @@
+.say-hello-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: #024d81 url(../../Images/form-bg.png);
+    background-size: auto 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.say-hello-main .say-hello-con {
+    align-items: center;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+.contact-detail {
+    margin: 0 0 0 -15px;
+    position: relative;
+}
+
+.contact-detail .form-img img {
+    min-height: 1050px;
+    object-fit: cover;
+}
+
+.home-contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.home-contact-form h3 {
+    color: #fff;
+    margin: 0 0 40px;
+}
+
+.form-row {
+    margin: 0 -7px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row .col-lg-6 {
+    margin: 0 0 15px;
+    padding: 0 7px;
+}
+
+.home-contact-form label {
+    color: #fff;
+    margin: 0 0 5px;
+}
+
+.home-contact-form label span {
+    color: red;
+}
+
+.home-contact-form .form-control {
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.home-contact-form .form-control::placeholder {
+    color: #fff;
+}
+
+.form-check-inline {
+    margin: 0 0 0;
+    padding: 0 0 0 7px;
+}
+
+.form-check-inline p {
+    margin: 0 0 15px;
+    color: #fff;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+.form-check-inline .radio {
+    margin: 0 15px 0 0;
+}
+
+.radio input:hover {
+    cursor: pointer;
+}
+
+.radio input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.form-check input {
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.form-check-inline .radio-label {
+    margin: 0;
+}
+
+.form-check-inline label {
+    color: #fff;
+}
+
+.radio input[type=radio]:checked+.radio-label:before {
+    background-color: #024d81;
+    box-shadow: inset 0 0 0 4px #fff;
+}
+
+.radio input[type=radio]+.radio-label:before {
+    content: "";
+    background: 0 0;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    position: relative;
+    top: 2px;
+    margin-right: 1em;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+}
+
+.form-row .col-lg-12 {
+    margin: 0 0 15px;
+    padding: 0 7px;
+}
+
+.home-contact-form .form-select {
+    background: rgba(255, 255, 255, .2) url('../../Images/chevron-down-solid.svg');
+    background-size: auto 15px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    color: #fff;
+    border: none;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.home-contact-form select option {
+    color: #000;
+}
+
+.home-contact-form textarea.form-control {
+    height: auto;
+}
+
+.form-row .col-lg-12 .input-group.custom-file-button {
+    padding: 0;
+}
+
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+    display: none
+}
+
+.custom-file-button input[type=file]::file-selector-button {
+    display: none
+}
+
+.custom-file-button:hover label {
+    background-color: #dde0e3;
+    cursor: pointer
+}
+
+.home-contact-form .custom-file-button label {
+
+    color: #000;
+    margin: 0;
+    font-size: 14px;
+    white-space: break-spaces;
+    text-align: left;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.input-group.custom-file-button input[type=file] {
+    height: 50px;
+    line-height: 35px;
+}
+
+.input-group.custom-file-button input[type="file"] {
+    height: 50px;
+    line-height: 35px;
+}
+
+.say-hello-main .btn {
+    background: 0 0;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.say-hello-main .btn:hover {
+    color: #024d81 !important;
+}
+
+.alert-success {
+    margin: 15px 0 0 !important;
+}

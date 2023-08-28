@@ -1,0 +1,10 @@
+.zen-cost-top-slider {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/zen-coast-top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

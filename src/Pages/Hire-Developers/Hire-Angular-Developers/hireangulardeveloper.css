@@ -1,0 +1,9 @@
+.hire-angular-top {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../../Images/hire-angular-top-developers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

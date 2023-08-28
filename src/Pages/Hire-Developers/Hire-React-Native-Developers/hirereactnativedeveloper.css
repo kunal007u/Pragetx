@@ -1,0 +1,9 @@
+.hire-reactnative-top {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../../Images/hire-reactnative-top-developers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

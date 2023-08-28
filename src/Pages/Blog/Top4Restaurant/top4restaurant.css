@@ -1,0 +1,52 @@
+.blog-top-main {
+    background: url(../../../Images/blog1.jpg);
+    height: 100vh;
+}
+
+.blog-top-main::after {
+    content: '';
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.blog-top-main .row {
+    height: 100vh;
+    position: relative;
+    z-index: 999;
+}
+
+.blog-detail-con {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 80px 0;
+}
+
+.blog-detail-con p {
+    margin: 0 0 30px;
+}
+
+.blog-detail-con h3 {
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.blog-detail-con h4 {
+    margin: 0 0 30px;
+    font-weight: bold;
+}
+
+.blog-detail-con h6 {
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+
+.blog-detail-con img {
+    margin: 0 0 30px;
+    width: auto;
+}

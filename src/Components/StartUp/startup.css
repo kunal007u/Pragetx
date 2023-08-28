@@ -1,0 +1,32 @@
+.are-you-startup-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url("../../Images/are-you-startup-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.are-you-startup-main .con-head {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.are-you-startup-main h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.are-you-startup-main p {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.are-you-startup-main a.btn {
+    background: #fff;
+    color: #024d81 !important;
+}

@@ -1,0 +1,394 @@
+.hungry-veels-top-slider {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/hungry-veels-top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hungry-veels-top-slider .row {
+    align-items: center;
+}
+
+.hungry-veels-top-slider .header-top-con {
+    text-align: left;
+    width: 65%;
+}
+
+.hungry-veels-top-slider h2 {
+    margin: 0 0 30px !important;
+}
+
+.hungry-veels-top-slider h2 span {
+    color: #024d81;
+}
+
+.hungry-veels-top-slider .btn {
+    margin: 30px 0 0 0;
+}
+
+.header-top-slider .row a.btn i {
+    margin-left: 5px;
+}
+
+.hungry-veels-top-slider .header-img {
+    text-align: center;
+    width: 35%;
+}
+
+.hungry-veels-top-slider .header-img img {
+    max-width: 300px;
+}
+
+.elc-top-slider,
+.folo-top-slider,
+.hungry-veels-top-slider,
+.neogrowth-top-slider,
+.school-owls-top-slider,
+.urnest-top-slider,
+.zen-cost-top-slider {
+    padding: 50px 0 0;
+}
+
+.hungry-veels-top-slider h1 {
+    margin: 0 0 30px !important;
+}
+
+/*------------------------------ About Hungry veels ------------------------------ */
+
+.about-case-study {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.about-case-con h2 {
+    margin: 0 0 30px;
+}
+
+.about-case-con h4 {
+    margin: 30px 0 0;
+    font-weight: 600;
+}
+
+.quick-panel {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px -15px 0;
+}
+
+.quick-box {
+    display: inline-block;
+    width: 30%;
+    border-radius: 15px;
+    margin: 0 15px 50px;
+    padding: 15px;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, .4), 5px 5px 9px rgba(2, 72, 129, .1);
+}
+
+.quick-box:hover {
+    background: #024d81;
+    color: #fff;
+}
+
+.quick-box h5 {
+    margin: 0 0 5px;
+    font-weight: 600;
+}
+
+.quick-box p {
+    margin: 0;
+}
+
+.about-case-img {
+    width: 25%;
+    text-align: center;
+}
+
+.about-case-img img {
+    max-width: 250px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .1);
+}
+
+.about-case-study .row {
+    flex-wrap: nowrap;
+}
+
+.about-case-con {
+    width: 75%;
+}
+
+/*------------------------------ About Client & Project Requirements ------------------------------ */
+
+.about-purpose {
+    overflow: inherit;
+}
+
+.about-client {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: #005a98 url(../../../Images/at-pragetx-bg.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-client-con {
+    position: relative;
+}
+
+.about-client-con h2 {
+    margin: 0 0 30px;
+    color: #fff;
+}
+
+.about-client-con h3,
+.about-client-con h4,
+.about-client-con h5 {
+    color: #fff !important;
+}
+
+.client-con-row {
+    margin: 80px 0 0;
+    position: relative;
+}
+
+.top-features {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 150px;
+    z-index: 99;
+}
+
+.client-con-row h5 {
+    font-size: 24px !important;
+    line-height: 28px !important;
+    font-weight: 600;
+}
+
+.about-client-con h5 {
+    margin: 0 0 20px;
+}
+
+.top-features-img {
+    margin: 30px 0 0 -15px;
+}
+
+.client-con-row p {
+    margin: 0 0 30px;
+}
+
+.about-client-con p {
+    margin: 0 0 30px;
+    color: #fff;
+}
+
+
+
+/*------------------------------ our-case-solution ------------------------------ */
+
+.our-case-solution {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.case-solution-con {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.case-solution-con h2 {
+    margin: 0 0 30px;
+}
+
+.case-solution-con p {
+    margin: 0 0 30px;
+}
+
+.case-app-screen {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.case-app-screen img {
+    width: 100%;
+}
+
+/*------------------------------ Key Features We Integrated<------------------------------ */
+.case-key-features {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 100px 0;
+}
+
+.key-head {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.case-key-features h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.case-key-features .nav-tabs {
+    border: none;
+    width: auto;
+    margin: 0 auto 80px;
+    justify-content: center;
+}
+
+.case-key-features .nav-tabs li button.active {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    width: 100%;
+    background: #024d81;
+    color: #fff;
+}
+
+.case-key-features .nav-tabs li button {
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    width: 100%;
+    color: #000;
+}
+
+.case-key-features .nav-tabs li {
+    border: none;
+    margin: 0 -1px 0 0 !important;
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+
+.key-box-inner {
+    display: block;
+    padding: 20px
+}
+
+.key-box::after,
+.key-box::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all .2s linear;
+    background: #024d81
+}
+
+.key-box-inner::after,
+.key-box-inner::before {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all .2s linear;
+    background: #024d81
+}
+
+.key-box:hover::after,
+.key-box:hover::before {
+    width: 100%
+}
+
+.key-box:hover .key-box-inner::after,
+.key-box:hover .key-box-inner::before {
+    height: 100%
+}
+
+.key-box::after {
+    left: 0;
+    bottom: 0;
+    transition-delay: 0.6s
+}
+
+.key-box .key-box-inner::after {
+    transition-delay: 0.4s;
+    right: 0;
+    bottom: 0
+}
+
+.key-box::before {
+    right: 0;
+    top: 0;
+    transition-delay: 0.2s
+}
+
+.key-box .key-box-inner::before {
+    transition-delay: 0s;
+    left: 0;
+    top: 0
+}
+
+.key-box:hover::after {
+    transition-delay: 0s
+}
+
+.key-box:hover .key-box-inner::after {
+    transition-delay: 0.2s
+}
+
+.key-box:hover::before {
+    transition-delay: 0.4s
+}
+
+.key-box:hover .key-box-inner::before {
+    transition-delay: 0.6s
+}
+
+/*------------------------------ Result<------------------------------ */
+
+.results-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 0 0 100px;
+}
+
+.results-main h2 {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.results-box-main {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.results-box {
+    width: 30%;
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, .4), 5px 5px 9px rgba(2, 72, 129, .1);
+    border-radius: 15px;
+    margin: 0 15px;
+    padding: 20px;
+    min-height: 245px;
+}
+
+.results-box h5 {
+    font-size: 22px !important;
+    line-height: 24px !important;
+    margin: 0 0 20px;
+}

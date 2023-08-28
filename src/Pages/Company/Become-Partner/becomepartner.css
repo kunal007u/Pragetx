@@ -1,0 +1,187 @@
+.become-partner-top {
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/become-partner-top.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ************************************* why-best-choose-main   partner-main ****************************************************************************** */
+
+.partner-box {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px 0 0;
+}
+
+.partner-box .col-lg-4 {
+    padding: 0 15px;
+}
+
+.partner-box .work-life-box {
+    border-right: none;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    background: #fff 0 0 no-repeat padding-box;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: left;
+}
+
+.partner-box .work-life-box::before {
+    content: "";
+    width: 84%;
+    height: 7px;
+    background-color: #024d81;
+    position: absolute;
+    bottom: -7px;
+    z-index: 0;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.partner-box .work-life-box span {
+    border-left: 1px solid #024d81;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+
+
+
+/* ************************************* blockquote-main ****************************************************************************** */
+
+
+.blockquote-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.blockquote {
+    padding: 100px;
+    background: #024d81;
+    display: inline-block;
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+}
+
+.blockquote::before {
+    background-image: url(../../../Images/quote__bg.svg);
+    background-position: left 0 top -15px;
+    background-repeat: no-repeat;
+    background-size: 7.5rem auto;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.blockquote>:last-child {
+    margin-bottom: 0;
+}
+
+.blockquote h4 {
+    color: #fff;
+    margin: 0 0 30px;
+}
+
+.blockquote::after {
+    background-image: url(../../../Images/quote__bg.svg);
+    background-position: left 0 top -15px;
+    background-size: 7.5rem auto;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+/* ************************************* about-us-main   nft-dec-con ****************************************************************************** */
+
+
+.about-us-main.nft-dec-con .counter-number {
+    margin: 0px;
+}
+
+
+.nft-dec-con .number-c {
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 0 20px;
+}
+
+.nft-dec-con .number-l {
+    min-height: 50px;
+}
+
+
+
+/* ************************************* about-us-main   nft-dec-con ****************************************************************************** */
+
+
+
+.follows .about-con .row {
+    align-items: center;
+}
+
+.why-trust .con-head {
+    padding: 0 0 0 50px;
+}
+
+.follows1.why-trust .con-head {
+    padding: 0 50px 0 0;
+}
+
+.follows .about-con .con-head ul {
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.why-trust .con-head ul {
+    padding: 0 0 0 15px;
+}
+
+.follows .about-con .con-head ul li {
+    margin: 0 0 15px;
+    padding: 0 0 0 40px;
+    background: url(../../../Images/dots-ic.svg);
+    background-repeat: no-repeat;
+    background-position: left 7px;
+    background-size: auto 18px;
+    list-style: none;
+}
+
+.about-us-main.why-trust {
+    text-align: left;
+
+}

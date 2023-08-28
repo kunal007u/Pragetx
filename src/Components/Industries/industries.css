@@ -1,0 +1,85 @@
+.industries-we-serve-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(../../Images/serve-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.industries-we-serve .nav-tabs {
+    border: none !important;
+    background: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1);
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.industries-we-serve .nav-tabs li {
+    width: 100%;
+    margin: 0.5px 0px;
+}
+
+.industries-we-serve .nav-tabs li button.active {
+    width: 100%;
+    border: none !important;
+    border-bottom: 1px solid #024d81 !important;
+    color: #024d81;
+}
+
+.industries-serve-box {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    min-height: 630px;
+    position: relative;
+}
+
+.industries-img {
+    display: inline-block;
+    width: 100%;
+}
+
+.industries-img img {
+    min-height: 650px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.industries-serve-box .serve-box-con {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.industries-serve-box h3 {
+    color: #fff;
+    margin: 0 0 15px;
+}
+
+.industries-serve-box p {
+    color: #fff;
+    margin: 0 0 15px;
+    width: 70%;
+}
+
+.industries-we-serve .nav-tabs li button {
+    width: 100%;
+    border: none !important;
+    color: rgba(0, 0, 0, .7);
+    text-align: left;
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 22px;
+    border-bottom: 1px solid transparent !important;
+}
+
+.industries-we-serve .nav-tabs li button:hover {
+    width: 100%;
+    border: none !important;
+    border-bottom: 1px solid #024d81 !important;
+    color: #024d81
+}

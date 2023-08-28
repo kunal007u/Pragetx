@@ -1,0 +1,43 @@
+.folo-top-slider {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../../../Images/folo-top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.header-top-slider .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 85vh;
+}
+
+/* ------------------------- About the client and project requirement -------------------------  */
+.case-about .about-client-con {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.case-about-box {
+    width: 33.33%;
+    padding: 0 20px;
+}
+
+.about-client-con p:last-child {
+    margin: 0;
+}
+
+.case-about-box:nth-child(2n) .case-about-img {
+    margin-top: 0;
+}
+
+.case-about-box .case-about-img {
+    margin: 30px 0;
+}
